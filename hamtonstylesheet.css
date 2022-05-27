@@ -1,0 +1,181 @@
+header{
+    position:fixed;
+    top:0px;
+    z-index:1;
+    width:100vw;
+    height:10vh;
+}
+h2{ background-color: #4aabe0;
+    line-height: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    padding:5px;
+}
+body{
+    background:whitesmoke;
+    min-height: 100vh;
+}
+.cardContainer{
+    position: relative;
+    top: 30px;
+    margin-top: 6vh;
+    display:flex;
+    min-height:60vh;
+}
+.card{
+    background-color: #E8E8E8;
+    border:2px solid #ccc;
+    border-radius: 10px;
+    margin: 10px 5px;
+    width: 50vw;
+    margin: auto;
+    padding:5px;}
+#cardshadow{
+    box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+}
+#box1{display:grid;
+    justify-items:center;
+    background-color: #2f323a;
+    width:0.5vw;
+    height:auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.box2{
+    background-color:burlywood;
+    width:auto;
+    height:auto;
+    border-bottom-left-radius: 10px;
+}
+.box3{
+    display: grid;
+    justify-content: center;
+    padding-top: 60px;
+    background-color:#2f323a;
+    width:auto;
+    height:auto;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.inputWithIcon input[type=text]{
+    padding-left: 40px;
+}
+.inputWithIcon{
+    position: relative;
+}
+.inputWithIcon i{
+    position:absolute;
+    left:0;
+    color: #2f323a; 
+    padding-top: 5px;
+    transform: scale(0.7);
+    transition:.4s; 
+}
+.inputWithIcon input:focus + i{color:#aaa}
+
+h5{ align-self: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aaa;
+}
+
+
+img{
+   padding-left: 40px;
+    width:140px;
+    margin: auto;
+    height:auto;
+}
+input{
+    line-height: 30px;
+    background-color: #E8E8E8;
+    color:#514D4F;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+.pLogin{
+    margin-top: 30px;
+    font-size: 14px;
+    align-content: center;
+
+}
+.border{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display:grid;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding: 30px;
+    line-height: 15px;
+}
+button{
+     display: grid;
+    margin:auto;
+    margin-top: 50px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     font-weight: bold;
+     padding: 5px;
+     background-color:#4aabe0;
+     border-width: 1px;
+     border-color: white;
+     color: whitesmoke;
+     border-radius:5px;
+     width: 180px;
+     height: 40px;
+     transition-duration: 0.4s;
+}
+  
+button:hover {
+    background-color:#4aabe0;
+    color:#514D4F;
+    box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+  }
+  a {
+    text-decoration: none;
+    color:burlywood;
+    }
+    a:hover {
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+
+
+
+footer{
+    color: white;
+    width:100vw;
+    height:4vh;
+    position:fixed;
+    bottom:0;
+    background-color:#4aabe0;
+    padding:0.5em;
+}
+
+ul {width:100vw;
+    color: white;
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+    height:25px;
+    }
+
+li {font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+     display: inline;
+     margin-left: 5px;
+     padding:5px;
+     
+    }
+    .ulFooter{
+        margin: 0px;
+        padding: 5px 0px 5px 30px;
+        width:100vw;
+    }
+    .card-header{
+        background: #4aabe0;
+        color: white;
+        font-weight: 600;
+    }
